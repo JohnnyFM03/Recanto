@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&dosplay=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:visited{
+    color:inherit;
+}
+
+body{
+    background-color: #d0d8e4;
+}
+
+.barra_cima {
+    height: 50px;
+    background-color: #0439D9;
+    color: #fff; 
+}
+
+body, input{
+    font-family: 'Poppins', sans-serif;
+}
+
+.content_cima{
+    width: 800px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.caixa_pesquisa{
+    margin-left: 25px;
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+    font-size: 14px;
+    background-image: url(../Comum/img/search.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.perfil_img{
+    width: 50px;
+    float: right;
+    border-radius: 15px;
+}
+
+.perfil_capa{
+    width: 800px;
+    min-height: 400px;
+    margin:auto;
+}
+
+.f_capa{
+    background-color: white;
+    text-align: center;
+    color: #0439D9;
+}
+
+.capa{
+    width: 100%;
+}
+
+.nav_bar{
+list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: white ;
+   text-align: center;
+   font-size: 17px;
+}
+
+.nav_bar li{
+    display: inline-block;
+   
+}
+
+.nav_bar a{
+    padding: 2px;
+    background: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_bar a:hover{
+    color: black;
+}
+
+.perfil{
+    height: 170px;
+    width: 170px;
+    margin-top: -200px;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+.perfil_nome{
+    font-size: 25px;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.amigos_box{
+    min-height: 400px;
+    flex: 1;
+    background-color: white;
+    margin-top: 20px;
+    color: #aaa;
+    padding: 8px;
+}
+
+.amigos{
+    clear: both;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0439D9;
+}
+
+.post_box{
+    min-height: 400px;
+    flex: 3;
+    padding: 10px;
+    padding-right: 0px;
+
+}
+
+.foto_amigos{
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin: 8px;
+}
+
+.postar{
+    background-color: #b3bac5;
+    margin-top: 10px;
+    border: solid thin #aaa;
+    padding: 10px;
+    height: 155px;
+}
+
+.fazer_post{
+    width: 100%;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 14px;
+    height: 100px;
+    border: none;
+}
+
+.fazer_post::placeholder{
+    padding: 2px 5px;
+}
+
+.post_btn{
+    float:inline-end;
+    background-color: #405d9b;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.post_bar{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+.post{
+    padding: 4px;
+    font-size: 13px;
+    
+}
+
+.img_p{
+    margin-right: 6px;
+    width: 75px
+}
+
+.dono_post{
+    font-weight: bold;
+    color: #405d9b;
+}
+
+.interacao_btn{
+    cursor: pointer;
+}
+
+.dia{
+    color: #999;
+}
